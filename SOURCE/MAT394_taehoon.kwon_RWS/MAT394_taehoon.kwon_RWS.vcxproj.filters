@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Files\Graphics">
+      <UniqueIdentifier>{1d74fe99-27f4-45d9-a085-1a520f82fa82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Graphics\GridCanvas">
+      <UniqueIdentifier>{b2c1a64f-4124-467e-ab8c-e3a9f7964871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Graphics\Camera">
+      <UniqueIdentifier>{3eeb0fa7-559a-429e-bcf7-516ee35a8cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Graphics\Shader">
+      <UniqueIdentifier>{2f833b52-b6ac-4115-af2f-10fd0b1fa361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Graphics\ObjLoader">
+      <UniqueIdentifier>{6386b587-6fe7-4df6-82a7-edb4095d3e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Graphics\Model">
+      <UniqueIdentifier>{2be4ad15-0415-47df-9fda-84efbbae2f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\RandomWalkAlgorithm">
+      <UniqueIdentifier>{5a490c84-f8d8-4fa7-b168-358cd653ce8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Debug">
+      <UniqueIdentifier>{0f09f35a-6fb9-45cb-9bbb-ca2a0c777de5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Files\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics.cpp">
+      <Filter>Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GridCanvas.cpp">
+      <Filter>Files\Graphics\GridCanvas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Files\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Files\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjLoader.cpp">
+      <Filter>Files\Graphics\ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RandomWalk.cpp">
+      <Filter>Files\RandomWalkAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debug.cpp">
+      <Filter>Files\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Files\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics.h">
+      <Filter>Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GridCanvas.h">
+      <Filter>Files\Graphics\GridCanvas</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>Files\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>Files\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjLoader.h">
+      <Filter>Files\Graphics\ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RandomWalk.h">
+      <Filter>Files\RandomWalkAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Debug.h">
+      <Filter>Files\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
